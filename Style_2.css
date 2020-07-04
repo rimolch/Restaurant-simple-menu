@@ -1,0 +1,117 @@
+
+body { 
+margin:0; 
+padding-top:20px;
+border: 0;
+} 
+@media (min-width :767px) {
+#A1{ 
+width:90%; 
+table-layout:fixed;
+border-spacing:40px; 
+} 
+}
+#B2 { 
+border: 4px solid black; 
+width:90%;
+box-sizing: border-box;
+background-color: rgb(153, 153, 153); 
+font-family:sans-serif; 
+padding-bottom: 10px; 
+} 
+#B3 { 
+border: 4px solid black; 
+width:90%; 
+box-sizing: border-box;
+background-color: rgb(153, 153, 153);
+font-family:sans-serif; 
+padding-bottom: 10px;
+
+} 
+#A2{ 
+border-left: 4px solid black;
+border-bottom: 3px solid black;
+float: right; 
+padding-top: 3%; 
+padding-bottom: 3%; 
+padding-left: 5%;
+padding-right: 5%; 
+font-size: 22px;
+} 
+#C1{ 
+border-left: 4px solid black;
+border-bottom: 3px solid black; 
+float: right; 
+padding-top: 3%; 
+padding-bottom: 3%;
+padding-left:6%; 
+padding-right:6%; 
+font-size: 22px; 
+} 
+@media (min-width :580px) and (max-width : 767px) { 
+#B1 { 
+border: 4px solid black; 
+box-sizing: border-box;
+background-color: rgb(153, 153, 153);
+font-family:sans-serif; 
+padding-bottom: 10px; 
+width: 90%; 
+margin: 20px; 
+display:grid; 
+}
+}
+#A3{ 
+margin-top: 60px; 
+margin-left: 10px;
+margin-right: 10px; 
+font-size: 12px;  
+}
+@media (max-width : 767px) {
+#A1{ 
+margin-top: 60px;
+margin-left: 50px; 
+display:grid; 
+row-gap: 50px; 
+margin-bottom: 30px; 
+}
+} 
+#B1{
+border: 4px solid black;
+width: 90%;
+box-sizing: border-box; 
+background-color: rgb(153, 153, 153); 
+font-family:sans-serif; 
+padding-bottom: 10px; 
+}
+#B2{ 
+border: 4px solid black; 
+width: 90%;
+box-sizing: border-box;
+background-color: rgb(153, 153, 153); 
+font-family:sans-serif; 
+padding-bottom: 10px;  
+} 
+#A2{ 
+border-left: 4px solid black;
+border-bottom: 4px solid black; 
+float: right;  
+padding-top: 3%; 
+padding-bottom: 3%;
+padding-left:10%; 
+padding-right: 10%; 
+font-size: 22px; 
+} 
+#C2{ 
+border-left: 4px solid black;
+border-bottom:4px solid black; 
+float: right; 
+padding-top: 3%;
+padding-bottom: 3%;
+padding-left: 10%; 
+padding-right: 10%; 
+font-size: 22px; 
+}  
+
+
+
+
